@@ -149,6 +149,10 @@ body{
         font-size: 1.4rem;
     }
 
+    .btn{
+        width: 50%;
+    }
+
     #Questions {
         font-size: 1.1rem;
     }
