@@ -70,4 +70,101 @@ body{
     border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+    #heading2 {
+        font-size: 1.5rem;
+    }
 
+    #Answer-btns .btn {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    #next-btn,
+    #previous-btn {
+        width: 48%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    #heading2 {
+        font-size: 1.3rem;
+    }
+
+    #Answer-btns .btn {
+        font-size: 0.85rem;
+    }
+
+    #next-btn,
+    #previous-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #heading2 {
+        font-size: 1.2rem;
+    }
+
+    #Questions {
+        font-size: 1rem;
+    }
+
+    #Answer-btns .btn {
+        width: 100%;
+        font-size: 0.85rem;
+        padding: 8px;
+    }
+
+    #next-btn,
+    #previous-btn {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-top: 8px;
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container .card {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #heading2 {
+        font-size: 1.4rem;
+    }
+
+    #Questions {
+        font-size: 1.1rem;
+    }
+
+    #Answer-btns .btn {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    #next-btn,
+    #previous-btn {
+        width: 48%;
+        font-size: 1rem;
+    }
+
+    .d-flex.justify-content-between {
+        gap: 8px;
+    }
+}
