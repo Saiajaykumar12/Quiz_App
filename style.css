@@ -154,6 +154,14 @@ body{
         margin-right: 2px;
     }
 
+    p{
+        margin-left: 0px;
+    }
+
+    .instruction{
+        margin-left: 0px;
+    }
+
     #Questions {
         font-size: 1.1rem;
     }
